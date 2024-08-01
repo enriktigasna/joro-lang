@@ -4,12 +4,6 @@ use pest::iterators::Pair;
 use pest::Parser;
 
 use crate::ast::{AstNode, BinaryOperator, UnaryOperator};
-// Todos in first to last priority
-// TODO: Test stuff manually and add to an examples/ directory
-// TODO: Testing
-// TODO: Evaluation
-// TODO: Make engine, and release
-// TODO: JIT if I bother
 
 #[derive(pest_derive::Parser)]
 #[grammar = "grammar.pest"]
